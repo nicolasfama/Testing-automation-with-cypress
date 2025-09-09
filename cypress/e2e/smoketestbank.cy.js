@@ -66,7 +66,7 @@ describe("Test Suite - Conjunto de Pruebas",()=>{
 
          cy.get('#money_map_tab > a').click()
          cy.get('#ext-sprite-1259').should('be.visible')
-         cy.get('#ext-sprite-1167 > tspan').click()
+         cy.get('#ext-sprite-1167').click()
          cy.get('#ext-sprite-1259').should('not.be.visible')
         
     })
