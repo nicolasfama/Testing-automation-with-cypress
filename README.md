@@ -10,6 +10,14 @@ Antes de ejecutar este proyecto, asegúrese de tener instalado lo siguiente:
 - Gestor de paquetes **npm**
 - **Git** para el control de versiones
 
+## 🧪 Ejecución de pruebas
+
+### Modo interactivo (Cypress Test Runner)
+
+```bash
+npx cypress open
+````
+
 ### 🛠️ Instalación
 ```bash
 Clonar el repositorio
