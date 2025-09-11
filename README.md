@@ -15,11 +15,9 @@ Antes de ejecutar este proyecto, asegúrese de tener instalado lo siguiente:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
+https://github.com/nicolasfama/Testing-automation-with-cypress.git
 
-
-🛠️ Installation
+## 🛠️ Installation
 Clone the repository
 
 git clone 
