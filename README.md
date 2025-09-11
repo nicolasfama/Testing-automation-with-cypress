@@ -10,28 +10,22 @@ Antes de ejecutar este proyecto, asegúrese de tener instalado lo siguiente:
 - Gestor de paquetes **npm**
 - **Git** para el control de versiones
 
-## ⚙️ Instalación
-
-### 1. Clonar el repositorio
-
-
-https://github.com/nicolasfama/Testing-automation-with-cypress.git
-
-## 🛠️ Installation
-Clone the repository
-
-git clone 
+### 🛠️ Instalación
+```bash
+Clonar el repositorio
+```
+git clone https://github.com/rishivajre/CypressDemoRSA.git
 cd CypressDemoRSA
-Install dependencies
+Instalar dependencias
 
 npm install
-Verify Cypress installation
+Verificar la instalación de Cypress
 
 npx cypress verify
-🏃‍♂️ Running Tests
-Interactive Mode (Cypress Test Runner)
+🏃‍♂️ Ejecución de pruebas
+Modo interactivo (Cypress Test Runner)
 npx cypress open
-Headless Mode (Command Line)
+Modo sin cabeza (línea de comandos)
 # Run all tests
 npm test
 
@@ -46,9 +40,9 @@ npm run angularWebsiteTest
 
 # Run smoke tests
 npm run SmokeTest
-Dashboard Recording (if configured)
+Grabación del panel de control (si está configurado)
 npm run recordDashBoardTest
-📁 Project Structure
+📁 Estructura del proyecto
 cypress/
 ├── downloads/          # Downloaded files during tests
 ├── fixtures/           # Test data and mock files
@@ -62,22 +56,22 @@ cypress/
 │   ├── commands.js    # Custom Cypress commands
 │   └── e2e.js        # Global configuration
 └── videos/            # Recorded test videos
-📝 Test Scenarios Included
-🔍 UI Testing Examples
-AngularWebsitePractice.js - Angular application testing patterns
-CalenderTest.js - Date picker and calendar interactions
-CheckBox01.js - Checkbox and form validation testing
-ChildPopUpWindows.js - Pop-up window handling
-ChildTabsHand.js - Multi-tab navigation testing
-Cypress_iframes.js - iFrame interaction testing
-GreenKartTesting.js - E-commerce shopping cart testing
-HandlingTables.js - Dynamic table data validation
-JWTsession.js - Authentication and session management
-🌐 API Testing Examples
-MockLibraryTest.js - API mocking and stubbing
-MockResponse.js - Response manipulation testing
-⚙️ Configuration
-Cypress Configuration (cypress.config.js)
+📝 Escenarios de prueba incluidos
+Ejemplos de pruebas de UI
+AngularWebsitePractice.js : Patrones de prueba de aplicaciones Angular
+CalenderTest.js : Selector de fechas e interacciones con el calendario
+CheckBox01.js - Pruebas de validación de casillas de verificación y formularios
+ChildPopUpWindows.js - Manejo de ventanas emergentes
+ChildTabsHand.js - Prueba de navegación con múltiples pestañas
+Cypress_iframes.js - Pruebas de interacción con iFrame
+GreenKartTesting.js - Pruebas de carritos de compra de comercio electrónico
+HandlingTables.js - Validación dinámica de datos de tablas
+JWTsession.js - Autenticación y gestión de sesiones
+Ejemplos de pruebas de API
+MockLibraryTest.js - Simulación y stubbing de API
+MockResponse.js - Prueba de manipulación de respuestas
+⚙️ Configuración
+Configuración de Cypress ( cypress.config.js)
 module.exports = defineConfig({
   defaultCommandTimeout: 6000,
   reporter: 'cypress-mochawesome-reporter',
@@ -91,38 +85,38 @@ module.exports = defineConfig({
     }
   }
 });
-Environment Variables
-Create a cypress.env.json file for sensitive data:
+Variables de entorno
+Crear un cypress.env.jsonarchivo para datos confidenciales:
 
 {
   "username": "your-username",
   "password": "your-password",
   "apiKey": "your-api-key"
 }
-📊 Reporting
-This project uses Mochawesome for generating detailed HTML reports with:
+📊 Informes
+Este proyecto utiliza Mochawesome para generar informes HTML detallados con:
 
-Test execution summary
-Screenshots of failures
-Detailed error messages
-Execution timeline
-Reports are generated in the cypress/reports/html/ directory.
+Resumen de ejecución de pruebas
+Capturas de pantalla de fallos
+Mensajes de error detallados
+Cronograma de ejecución
+Los informes se generan en el cypress/reports/html/directorio.
 
-🔧 Custom Commands
-The project includes custom Cypress commands in cypress/support/commands.js:
+🔧 Comandos personalizados
+El proyecto incluye comandos Cypress personalizados en cypress/support/commands.js:
 
-Login helpers
-Common UI interactions
-API request wrappers
-Data manipulation utilities
-🚀 CI/CD Integration
-This framework is ready for CI/CD integration with:
+Asistentes de inicio de sesión
+Interacciones comunes de la interfaz de usuario
+Envoltorios de solicitudes de API
+Utilidades de manipulación de datos
+Integración CI/CD
+Este marco está listo para la integración CI/CD con:
 
-GitHub Actions
+Acciones de GitHub
 Jenkins
 GitLab CI
 Azure DevOps
-Example GitHub Actions workflow:
+Ejemplo de flujo de trabajo de Acciones de GitHub:
 
 name: Cypress Tests
 on: [push, pull_request]
@@ -136,61 +130,49 @@ jobs:
           build: npm install
           start: npm start
           wait-on: 'http://localhost:3000'
-🤝 Contributing
-Fork the repository
-Create a feature branch: git checkout -b feature/new-test
-Commit your changes: git commit -am 'Add new test scenario'
-Push to the branch: git push origin feature/new-test
-Submit a pull request
-📚 Best Practices Implemented
-Page Object Model for maintainable test code
-Data-driven testing using fixtures
-Proper wait strategies instead of hard waits
-Test isolation - each test is independent
-Clear test descriptions and meaningful assertions
-Error handling and retry mechanisms
-Screenshot capture on test failures
-🐛 Troubleshooting
-Common Issues
-Tests failing intermittently
+🤝 Contribuyendo
+Bifurcar el repositorio
+Crear una rama de características:git checkout -b feature/new-test
+Confirme sus cambios:git commit -am 'Add new test scenario'
+Empujar a la rama:git push origin feature/new-test
+Enviar una solicitud de extracción
+📚 Mejores prácticas implementadas
+Modelo de objetos de página para código de prueba mantenible
+Pruebas basadas en datos mediante accesorios
+Estrategias de espera adecuadas en lugar de esperas difíciles
+Aislamiento de pruebas : cada prueba es independiente
+Descripciones de pruebas claras y afirmaciones significativas
+Manejo de errores y mecanismos de reintento
+Captura de pantalla sobre fallos en las pruebas
+🐛 Solución de problemas
+Problemas comunes
+Las pruebas fallan intermitentemente
 
-Check for proper wait conditions
-Verify element selectors
-Review network requests timing
-Browser launch issues
+Verificar las condiciones de espera adecuadas
+Verificar selectores de elementos
+Revisar los tiempos de las solicitudes de red
+Problemas al iniciar el navegador
 
-Verify browser installation
-Check Cypress browser support
-Clear Cypress cache: npx cypress cache clear
-Permission errors
+Verificar la instalación del navegador
+Comprobar la compatibilidad del navegador Cypress
+Borrar caché de Cypress:npx cypress cache clear
+Errores de permisos
 
-Run with appropriate permissions
-Check file/folder access rights
-📞 Support
-For questions and support:
+Ejecutar con los permisos adecuados
+Comprobar los derechos de acceso a archivos/carpetas
+📞 Soporte
+Para preguntas y soporte:
 
-Create an issue in this repository
-Check Cypress Documentation
-Visit Cypress Community Forum
-📄 License
-This project is licensed under the ISC License - see the LICENSE file for details.
+Crear un problema en este repositorio
+Consulte la documentación de Cypress
+Visita el Foro de la Comunidad de Cypress
+📄 Licencia
+Este proyecto está licenciado bajo la licencia ISC: consulte el archivo de LICENCIA para obtener más detalles.
 
-🙏 Acknowledgments
-Cypress.io for the amazing testing framework
-Rahul Shetty Academy for test application examples
-Testing community for best practices and patterns
-Happy Testing! 🎉
-```bash
+🙏 Agradecimientos
+Cypress.io por su increíble marco de pruebas
+Academia Rahul Shetty para ejemplos de aplicaciones de prueba
+Comunidad de pruebas para encontrar las mejores prácticas y patrones
+¡Feliz prueba! 🎉
 
-Built with ❤️ using Cypress
-```
----
-
-### 📌 Cómo agregar esto a tu repositorio
-## 🧪 Ejecución de pruebas
-
-### Modo interactivo (Cypress Test Runner)
-
-```bash
-npx cypress open
-
+Creado con ❤️ usando Cypress
