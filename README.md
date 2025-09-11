@@ -5,10 +5,8 @@ A comprehensive end-to-end testing framework built with Cypress for web applicat
 ## 🚀 Features
 
 - **Cross-browser Testing:** Supports Chrome, Firefox, Edge, and Electron  
-- **Parallel Test Execution:** Configured for CI/CD pipeline integration  
-- **Page Object Model:** Organized test structure with reusable components  
+- **Parallel Test Execution:** Configured for CI/CD pipeline integration   
 - **Custom Commands:** Extended Cypress functionality for common operations  
-- **Mochawesome Reporting:** Beautiful HTML test reports with screenshots  
 - **Multiple Test Scenarios:** Covers various UI testing patterns including:  
   - Form interactions and validations  
   - Dynamic element handling  
