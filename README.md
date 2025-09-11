@@ -2,6 +2,23 @@
 
 A comprehensive end-to-end testing framework built with Cypress for web application testing. This project demonstrates various Cypress testing patterns, best practices, and real-world testing scenarios.
 
+## 🛠️ Requisitos previos
+
+Antes de ejecutar este proyecto, asegúrese de tener instalado lo siguiente:
+
+- **Node.js** (versión 14 o superior)
+- Gestor de paquetes **npm** o **yarn**
+- **Git** para el control de versiones
+
+## ⚙️ Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+
+
 🛠️ Installation
 Clone the repository
 
