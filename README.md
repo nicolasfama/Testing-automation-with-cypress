@@ -180,9 +180,10 @@ Cypress.io for the amazing testing framework
 Rahul Shetty Academy for test application examples
 Testing community for best practices and patterns
 Happy Testing! 🎉
+```bash
 
 Built with ❤️ using Cypress
-
+```
 ---
 
 ### 📌 Cómo agregar esto a tu repositorio
