@@ -2,23 +2,10 @@
 
 A comprehensive end-to-end testing framework built with Cypress for web application testing. This project demonstrates various Cypress testing patterns, best practices, and real-world testing scenarios.
 
-## 🚀 Features
-
-- **Cross-browser Testing:** Supports Chrome, Firefox, Edge, and Electron  
-- **Parallel Test Execution:** Configured for CI/CD pipeline integration   
-- **Custom Commands:** Extended Cypress functionality for common operations  
-- **Multiple Test Scenarios:** Covers various UI testing patterns including:  
-  - Form interactions and validations  
-  - Dynamic element handling  
-  - API testing and mocking  
-  - File uploads/downloads  
-  - iFrame handling  
-  - Pop-up and tab management  
-
 🛠️ Installation
 Clone the repository
 
-git clone https://github.com/nicolasfama
+git clone 
 cd CypressDemoRSA
 Install dependencies
 
