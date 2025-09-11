@@ -9,7 +9,10 @@ Antes de ejecutar este proyecto, asegúrese de tener instalado lo siguiente:
 - **Node.js** (versión 14 o superior)
 - Gestor de paquetes **npm**
 - **Git** para el control de versiones.
-
+  
+websites test
+-https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+-
 ## 🧪 Ejecución de pruebas
 
 ### Modo interactivo (Cypress Test Runner)
