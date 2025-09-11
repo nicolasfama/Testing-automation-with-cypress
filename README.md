@@ -1,28 +1,22 @@
-#⚡TESTING-AUTOMATION-WITH-CYPRESS
+# 🚀 Cypress Automation Testing Framework
 
 A comprehensive end-to-end testing framework built with Cypress for web application testing. This project demonstrates various Cypress testing patterns, best practices, and real-world testing scenarios.
 
-🚀 Features
-Cross-browser Testing: Supports Chrome, Firefox, Edge, and Electron
-Parallel Test Execution: Configured for CI/CD pipeline integration
-Page Object Model: Organized test structure with reusable components
-Custom Commands: Extended Cypress functionality for common operations
-Mochawesome Reporting: Beautiful HTML test reports with screenshots
-Multiple Test Scenarios: Covers various UI testing patterns including:
-Form interactions and validations
-Dynamic element handling
-API testing and mocking
-File uploads/downloads
-iFrame handling
-Pop-up and tab management
-Table data validation
-Calendar interactions
-📋 Prerequisites
-Before running this project, make sure you have the following installed:
+## 🚀 Features
 
-Node.js (version 14 or higher)
-npm or yarn package manager
-Git for version control
+- **Cross-browser Testing:** Supports Chrome, Firefox, Edge, and Electron  
+- **Parallel Test Execution:** Configured for CI/CD pipeline integration  
+- **Page Object Model:** Organized test structure with reusable components  
+- **Custom Commands:** Extended Cypress functionality for common operations  
+- **Mochawesome Reporting:** Beautiful HTML test reports with screenshots  
+- **Multiple Test Scenarios:** Covers various UI testing patterns including:  
+  - Form interactions and validations  
+  - Dynamic element handling  
+  - API testing and mocking  
+  - File uploads/downloads  
+  - iFrame handling  
+  - Pop-up and tab management  
+
 🛠️ Installation
 Clone the repository
 
