@@ -7,7 +7,7 @@ A comprehensive end-to-end testing framework built with Cypress for web applicat
 Antes de ejecutar este proyecto, asegúrese de tener instalado lo siguiente:
 
 - **Node.js** (versión 14 o superior)
-- Gestor de paquetes **npm** o **yarn**
+- Gestor de paquetes **npm**
 - **Git** para el control de versiones
 
 ## ⚙️ Instalación
