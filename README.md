@@ -25,7 +25,7 @@ Git for version control
 🛠️ Installation
 Clone the repository
 
-git clone https://github.com/rishivajre/CypressDemoRSA.git
+git clone https://github.com/nicolasfama
 cd CypressDemoRSA
 Install dependencies
 
