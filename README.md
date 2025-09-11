@@ -30,9 +30,13 @@ npm install
 Verificar la instalación de Cypress
 
 npx cypress verify
-🏃‍♂️ Ejecución de pruebas
-Modo interactivo (Cypress Test Runner)
+##🏃‍♂️ Ejecución de pruebas
+
+### Modo interactivo (Cypress Test Runner)
+````bash
 npx cypress open
+````
+
 Modo sin cabeza (línea de comandos)
 # Run all tests
 npm test
