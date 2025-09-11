@@ -186,19 +186,10 @@ Built with ❤️ using Cypress
 ---
 
 ### 📌 Cómo agregar esto a tu repositorio
+## 🧪 Ejecución de pruebas
 
-1. Abre tu repositorio en GitHub.
-2. Ve al archivo `README.md` o crea uno nuevo.
-3. Pega el contenido Markdown anterior (puedes modificar el link del `git clone` con el de tu propio repositorio).
-4. Haz clic en **"Commit changes"** para guardar.
+### Modo interactivo (Cypress Test Runner)
 
----
-
-### ✨ Resultado
-
-Una vez guardado, se verá bonito y con formato, igual que en la imagen, incluyendo los bloques de código, íconos y listas.
-
----
-
-¿Quieres que combine todo (sección de features + instalación + requisitos) en un solo `README.md` listo para pegar?
+```bash
+npx cypress open
 
