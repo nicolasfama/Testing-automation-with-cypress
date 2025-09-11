@@ -1,4 +1,4 @@
-# 🚀 Cypress Automation Testing Framework
+# 🚀 Automation test with Cypress
 
 A comprehensive end-to-end testing framework built with Cypress for web application testing. This project demonstrates various Cypress testing patterns, best practices, and real-world testing scenarios.
 
