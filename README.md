@@ -20,16 +20,19 @@ npx cypress open
 
 ### 🛠️ Instalación
 ```bash
-Clonar el repositorio
-```
 git clone https://github.com/rishivajre/CypressDemoRSA.git
-cd CypressDemoRSA
-Instalar dependencias
-
+````
+````bash
+cd testing-with-cypress
+````
+# Instalar dependencias
+````bash
 npm install
-Verificar la instalación de Cypress
-
+````
+# Verificar la instalación de Cypress
+````bash
 npx cypress verify
+````
 ##🏃‍♂️ Ejecución de pruebas
 
 ### Modo interactivo (Cypress Test Runner)
