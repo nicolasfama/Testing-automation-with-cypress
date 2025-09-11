@@ -12,8 +12,8 @@ Antes de ejecutar este proyecto, asegúrese de tener instalado lo siguiente:
   
 websites test:
 
--https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
--https://zero.webappsecurity.com
+- https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+- https://zero.webappsecurity.com
 
 ## 🧪 Ejecución de pruebas
 
