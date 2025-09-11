@@ -20,7 +20,7 @@ npx cypress open
 
 ## 🛠️ Instalación
 ```bash
-git clone https://github.com/rishivajre/CypressDemoRSA.git
+git clone https://github.com/nicolasfama/Testing-automation-with-cypress.git
 ````
 ````bash
 cd testing-with-cypress
