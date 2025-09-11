@@ -18,22 +18,22 @@ Antes de ejecutar este proyecto, asegúrese de tener instalado lo siguiente:
 npx cypress open
 ````
 
-### 🛠️ Instalación
+## 🛠️ Instalación
 ```bash
 git clone https://github.com/rishivajre/CypressDemoRSA.git
 ````
 ````bash
 cd testing-with-cypress
 ````
-# Instalar dependencias
+## Instalar dependencias
 ````bash
 npm install
 ````
-# Verificar la instalación de Cypress
+## Verificar la instalación de Cypress
 ````bash
 npx cypress verify
 ````
-##🏃‍♂️ Ejecución de pruebas
+## 🏃‍♂️ Ejecución de pruebas
 
 ### Modo interactivo (Cypress Test Runner)
 ````bash
